@@ -1,6 +1,6 @@
 {
   "name": "aem-package-rename",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A CLI tool to rename site names within AEM import packages",
   "main": "dist/index.js",
   "bin": {
