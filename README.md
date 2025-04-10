@@ -17,16 +17,21 @@ Utility for renaming Adobe Experience Manager (AEM) packages by modifying both f
 
 ## Installation
 
-1. Clone this repository:
+1. (Optional) Install globally for command-line usage:
 ```bash
-git clone <repository-url>
-cd aem-package-rename
+npm install -g aem-package-rename
 ```
 
-2. Install dependencies:
+## Usage
+
 ```bash
-npm install
+aem-package-rename -o old-sitename -n new-sitename -p test.zip
 ```
+
+Where:
+- `-o` or `--old-name`: The old site name to replace
+- `-n` or `--new-name`: The new site name to use
+- `-p` or `--package`: The path to the AEM package file
 
 ## How It Works
 
